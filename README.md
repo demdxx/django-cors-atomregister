@@ -39,3 +39,9 @@ ATOMREGISTER = {
 **positive_only** принимать и считать только положительные события.
 
 **code** уникальное значение маркирующее данное действие.
+
+```python
+for p in Picture.objects.all():
+    if p.is_like(user):
+        print "%s this s liked!" % str(p)
+```
