@@ -30,7 +30,7 @@ ATOMREGISTER = {
 ```
 
 В модель **Picture** добавится несколько методов: set_like:user;   uset_like:user;   is_like:user;   count_like;   users_like.
-В модель **Fact**: set_like:user,positive=True;   uset_like:user,positive=True;   is_like:user;   count_like:positive=True;   users_like.
+В модель **Fact**: set_confirm:user,positive=True;   uset_confirm:user,positive=True;   is_confirm:user;   count_confirm:positive=True;   users_confirm.
 Можно задать свои названия методов в поле **names** только в таком порядке.
 
 **counter_field** указавает поля которые могут быть использованы для хранения количества
