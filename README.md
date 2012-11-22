@@ -43,5 +43,5 @@ ATOMREGISTER = {
 ```python
 for p in Picture.objects.all():
     if p.is_like(user):
-        print "%s this s liked!" % str(p)
+        print "%s was marked!" % str(p)
 ```
